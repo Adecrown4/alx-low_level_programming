@@ -15,11 +15,11 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
-if (n > 5)
+if (n > 98)
 {
 	printf("Last digit of %d is %d and is greater than S\n", n, 1);
 }
-else if (n == 0)
+else if (n == 98)
 {
 	printf("last digit of %d is %d and is 0\n", n, 1);
 }
