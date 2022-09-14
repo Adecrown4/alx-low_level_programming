@@ -1,22 +1,22 @@
+#include "unistd.h"
 #include "main.h"
 
 /**
-* main - print putchar
-* Return: always 0
+* main - start point
+*
+* Return: 0 if code executes
 */
 
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u'):
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char *sh = "_putchar";
+
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
 	_putchar('\n');
 
 	return (0);
-
 }
